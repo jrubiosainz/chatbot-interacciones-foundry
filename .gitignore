@@ -1,0 +1,10 @@
+# Entornos y datos locales
+.venv/
+.env
+.azure/
+.localdata/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store

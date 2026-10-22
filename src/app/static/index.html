@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatbot de interacciones · Microsoft Foundry</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f6cbd'/%3E%3Cpath d='M9 11h14v8H14l-5 4z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/styles.css?v=__V__">
+  <script src="/static/app.js?v=__V__" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div>
+        <h1>Chatbot de interacciones</h1>
+        <p>Prototipo de atención ciudadana · Microsoft Foundry</p>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <span id="boot-pill" class="pill pill-wait" title="Estado de preparación del entorno">Conectando…</span>
+      <button id="audio-toggle" type="button" class="audio-toggle" aria-pressed="false"
+              title="El audio está silenciado: no se reproducirá ningún sonido">🔇 Audio silenciado</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="chat-panel" aria-label="Chatbot">
+      <nav id="tabs" class="tabs" role="tablist" aria-label="Usuarios"></nav>
+      <div id="persona-bar" class="persona-bar"></div>
+      <div id="messages" class="messages" role="tabpanel" aria-live="polite"></div>
+      <form id="composer" class="composer" autocomplete="off">
+        <label class="sr-only" for="model-select">Modelo</label>
+        <select id="model-select" class="model-select" title="Modelo de texto (agente de Foundry)"></select>
+        <label class="sr-only" for="input">Mensaje</label>
+        <textarea id="input" rows="1" maxlength="2000" placeholder="Escribe un mensaje o pulsa 🎙️ para hablar…"></textarea>
+        <button id="mic-btn" type="button" class="icon-btn" title="Grabar un mensaje de voz (Esc para cancelar)" aria-label="Grabar mensaje de voz">🎙️</button>
+        <button id="send-btn" type="submit" class="primary-btn">Enviar</button>
+      </form>
+      <div id="composer-hint" class="composer-hint"></div>
+    </section>
+
+    <aside class="dash-panel" aria-label="Cuadro de telemetría">
+      <div class="dash-head">
+        <div>
+          <h2>Telemetría de Foundry</h2>
+          <p id="dash-subtitle" class="muted">Application Insights conectado al proyecto</p>
+        </div>
+        <div class="dash-controls">
+          <label class="sr-only" for="range-select">Periodo</label>
+          <select id="range-select"></select>
+          <button id="refresh-btn" type="button" class="icon-btn" title="Actualizar ahora" aria-label="Actualizar">↻</button>
+        </div>
+      </div>
+      <div id="dash-status" class="dash-status" hidden></div>
+      <div id="kpis" class="kpis"></div>
+
+      <h3>Interacciones por usuario</h3>
+      <div class="table-wrap">
+        <table id="user-table" class="data-table">
+          <thead>
+            <tr>
+              <th>Usuario</th>
+              <th class="num" title="Mensajes enviados por el usuario (turnos completados)">Mensajes</th>
+              <th title="Modelos usados y número de llamadas">Modelos</th>
+              <th class="num" title="Tokens de entrada / salida (todos los modelos)">Tokens</th>
+              <th class="num" title="Llamadas a la herramienta Azure AI Search">AI Search</th>
+              <th class="num" title="Llamadas a la herramienta Web Search (Bing)">Bing</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <h3>Llamadas por usuario y modelo</h3>
+      <div class="table-wrap">
+        <table id="pivot-table" class="data-table pivot"></table>
+      </div>
+
+      <details class="kql">
+        <summary>Consulta KQL utilizada</summary>
+        <pre id="kql"></pre>
+      </details>
+      <p id="source" class="source muted"></p>
+    </aside>
+  </main>
+</body>
+</html>

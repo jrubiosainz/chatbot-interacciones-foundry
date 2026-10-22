@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "${AZURE_ENV_NAME}"
+    },
+    "location": {
+      "value": "${AZURE_LOCATION}"
+    },
+    "principalId": {
+      "value": "${AZURE_PRINCIPAL_ID}"
+    },
+    "principalType": {
+      "value": "${AZURE_PRINCIPAL_TYPE=User}"
+    },
+    "webImageName": {
+      "value": "${SERVICE_WEB_IMAGE_NAME=}"
+    },
+    "resourceGroupName": {
+      "value": "${AZURE_RESOURCE_GROUP_NAME=RG-chatbot-interacciones}"
+    },
+    "searchLocation": {
+      "value": "${AZURE_SEARCH_LOCATION=spaincentral}"
+    },
+    "simulationEnabled": {
+      "value": "${SIMULATION_ENABLED=true}"
+    },
+    "captureMessageContent": {
+      "value": "${CAPTURE_MESSAGE_CONTENT=false}"
+    }
+  }
+}

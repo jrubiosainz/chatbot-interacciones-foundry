@@ -1,0 +1,11 @@
+fastapi==0.141.1
+uvicorn==0.54.0
+python-multipart==0.0.32
+httpx==0.28.1
+openai==3.20.0
+azure-ai-projects==2.6.1
+azure-identity==1.26.0
+azure-storage-blob==12.31.0
+azure-core-tracing-opentelemetry==1.0.0b13
+azure-monitor-opentelemetry-exporter==1.0.0b57
+opentelemetry-sdk==1.44.0

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "empadronamiento",
+    "title": "Alta y cambio de domicilio en el padrón municipal",
+    "category": "Padrón y atención ciudadana",
+    "url": "https://sede.ciudad-demo.example/tramites/empadronamiento",
+    "content": "El empadronamiento es obligatorio para todas las personas que residen en Ciudad Demo y da acceso a ayudas, plaza escolar y servicios municipales. Se puede tramitar de dos formas: 1) Presencial en cualquiera de las 7 Oficinas de Atención Ciudadana (OAC), con cita previa por la sede electrónica o en el 010; el alta se resuelve en el acto. 2) Online en la sede electrónica con certificado digital o Cl@ve; el plazo de resolución es de 5 días hábiles. Documentación: DNI, NIE o pasaporte en vigor de cada persona; contrato de alquiler en vigor, escritura o nota simple si es propietario, o autorización firmada del titular de la vivienda con copia de su documento de identidad. Menores: libro de familia y documento de ambos progenitores o autorización. El volante y el certificado de empadronamiento son gratuitos y se descargan al momento en la sede electrónica; el certificado tiene validez de 3 meses para la mayoría de trámites. Los cambios de domicilio dentro del municipio siguen el mismo procedimiento."
+  },
+  {
+    "id": "ayuda-alquiler-joven",
+    "title": "Ayuda municipal al alquiler para jóvenes",
+    "category": "Vivienda",
+    "url": "https://sede.ciudad-demo.example/ayudas/alquiler-joven",
+    "content": "Ayuda de hasta 250 euros al mes durante 12 meses para personas de 18 a 35 años que alquilen su vivienda habitual en Ciudad Demo, con un máximo del 40 % de la renta mensual. Requisitos: estar empadronado en el municipio con al menos 6 meses de antigüedad en la fecha de solicitud; renta del alquiler igual o inferior a 900 euros al mes; ingresos de la unidad de convivencia inferiores a 3 veces el IPREM; no ser propietario de otra vivienda; estar al corriente de pagos con el ayuntamiento. Convocatoria 2026: del 1 de marzo al 30 de abril, solicitud en la sede electrónica o en las OAC con cita previa. Documentación: contrato de alquiler registrado, justificantes de pago de los 3 últimos meses, declaración de la renta o certificado de imputaciones y número de cuenta bancaria. Resolución en un plazo máximo de 3 meses y pago trimestral. Es compatible con el Bono Alquiler Joven estatal siempre que la suma de ayudas no supere el 100 % de la renta."
+  },
+  {
+    "id": "licencia-terraza",
+    "title": "Licencia de terraza de veladores en la vía pública",
+    "category": "Comercio y hostelería",
+    "url": "https://sede.ciudad-demo.example/tramites/licencia-terraza",
+    "content": "Los establecimientos de hostelería con licencia de actividad en vigor pueden solicitar autorización para instalar una terraza de veladores. Modalidades: anual o de temporada (del 1 de marzo al 31 de octubre). Documentación: solicitud en la sede electrónica, plano a escala 1:50 con la ocupación y los pasos libres (mínimo 1,80 metros de paso peatonal), fotografías de la fachada, seguro de responsabilidad civil que cubra la terraza y ficha del mobiliario. Plazo de resolución: 2 meses; las renovaciones sin cambios se tramitan en 15 días. Tasa anual por metro cuadrado ocupado: 28 euros en zona A (centro histórico), 18 euros en zona B y 10 euros en zona C; la terraza de temporada paga el 70 % de la tasa anual. Horario máximo: hasta las 00:00 de domingo a jueves y hasta la 01:00 los viernes, sábados y vísperas de festivo. Durante el procedimiento la terraza no puede instalarse."
+  },
+  {
+    "id": "zona-bajas-emisiones",
+    "title": "Zona de Bajas Emisiones (ZBE) de Ciudad Demo",
+    "category": "Movilidad",
+    "url": "https://sede.ciudad-demo.example/movilidad/zbe",
+    "content": "La Zona de Bajas Emisiones abarca el distrito Centro y está controlada por cámaras de lectura de matrícula. Acceso según la etiqueta ambiental de la DGT: vehículos con etiqueta 0 emisiones, ECO y C circulan libremente; vehículos con etiqueta B pueden acceder solo para estacionar en aparcamientos públicos o privados; los vehículos sin etiqueta (A) no pueden entrar salvo los de personas empadronadas en la ZBE, vehículos de personas con movilidad reducida con tarjeta PMR, servicios de emergencia y vehículos históricos. Infracción: multa de 200 euros, reducida a 100 euros por pronto pago en 20 días. Se puede registrar una matrícula autorizada (por ejemplo, la de un cuidador o un vehículo de alquiler) en la sede electrónica. Existe una ayuda municipal de hasta 1.500 euros por achatarrar un vehículo sin etiqueta y comprar uno con etiqueta 0 o ECO, o un abono de transporte anual. La etiqueta ambiental se consulta en la web de la DGT con la matrícula."
+  },
+  {
+    "id": "ayudas-autonomos-comercio",
+    "title": "Ayudas a autónomos y comercio local: digitalización y eficiencia energética",
+    "category": "Empleo y empresas",
+    "url": "https://sede.ciudad-demo.example/ayudas/comercio-local",
+    "content": "Programa Comercio Digital 2026: subvención del 80 % del gasto, hasta 3.000 euros, para página web o tienda online, TPV y software de gestión, ciberseguridad, reservas online y formación digital. Programa Comercio Eficiente 2026: subvención del 50 % del gasto, hasta 5.000 euros, para sustituir cámaras y vitrinas frigoríficas por equipos de alta eficiencia, iluminación LED, climatización eficiente y sistemas de control de consumo. Requisitos comunes: autónomos y pymes de hasta 10 personas trabajadoras con local abierto en Ciudad Demo, alta en el IAE, estar al corriente con Hacienda, Seguridad Social y el ayuntamiento. Plazo de solicitud: hasta el 30 de junio o hasta agotar el crédito (1,2 millones de euros). Se admiten gastos facturados desde el 1 de enero de 2026. Justificación: facturas y justificantes de pago en los 3 meses siguientes a la resolución. Son compatibles con el Kit Digital estatal si no se subvenciona dos veces el mismo gasto. Asesoramiento gratuito en el Centro de Empresas municipal."
+  },
+  {
+    "id": "teleasistencia",
+    "title": "Servicio municipal de teleasistencia",
+    "category": "Mayores y servicios sociales",
+    "url": "https://sede.ciudad-demo.example/servicios-sociales/teleasistencia",
+    "content": "La teleasistencia permite pedir ayuda las 24 horas, los 365 días del año, pulsando un botón colgante o de pulsera conectado con una central de atención. Destinatarios: personas mayores de 65 años empadronadas y personas con dependencia o discapacidad que vivan solas o pasen muchas horas solas. Coste: gratuito si los ingresos mensuales son inferiores a 1,5 veces el IPREM; en otro caso, aportación de 6 euros al mes. Incluye llamadas periódicas de seguimiento, agenda de recordatorios de citas médicas y, opcionalmente, detectores de humo y de gas. Solicitud: en el centro de servicios sociales del distrito, en el 010 o en la sede electrónica. Documentación: DNI, declaración de ingresos o pensión, informe médico si lo hubiera y datos de 2 personas de contacto con llave del domicilio. Plazo: valoración en 15 días hábiles e instalación en un máximo de 10 días hábiles tras la aprobación; en casos urgentes, en 48 horas."
+  },
+  {
+    "id": "centros-mayores",
+    "title": "Centros municipales de mayores y comedor",
+    "category": "Mayores y servicios sociales",
+    "url": "https://sede.ciudad-demo.example/mayores/centros",
+    "content": "Ciudad Demo cuenta con 6 centros municipales de mayores, abiertos de lunes a sábado de 9:00 a 20:00. Pueden hacerse socias las personas empadronadas de 60 años o más; el carné de socio es gratuito y se tramita en el propio centro con el DNI. Actividades gratuitas: gimnasia suave, yoga, talleres de memoria, informática y uso del móvil, baile, coro, excursiones y charlas de salud. Servicio de comedor: menú del día a 4,50 euros (2 euros con ingresos inferiores al IPREM), reserva hasta las 12:00 del día anterior en el centro o en el 010; también se ofrece comida a domicilio para quien no pueda desplazarse. Los centros disponen de podología y peluquería a precios reducidos y de un programa de voluntariado de acompañamiento contra la soledad no deseada."
+  },
+  {
+    "id": "ayuda-domicilio",
+    "title": "Servicio de Ayuda a Domicilio (SAD)",
+    "category": "Mayores y servicios sociales",
+    "url": "https://sede.ciudad-demo.example/servicios-sociales/ayuda-domicilio",
+    "content": "El Servicio de Ayuda a Domicilio ofrece apoyo en el hogar a personas mayores o con dependencia: aseo e higiene personal, ayuda para levantarse y acostarse, limpieza ligera de la vivienda, compras y acompañamiento a citas médicas. Intensidad: hasta 20 horas al mes según la valoración. Coste: copago según renta, desde 0 euros para ingresos inferiores al IPREM hasta un máximo de 14 euros por hora. Solicitud en el centro de servicios sociales del distrito, con cita a través del 010. Una trabajadora social realiza una visita de valoración en un plazo de 30 días; los casos urgentes se atienden en 72 horas. Es compatible con la teleasistencia y con el comedor de los centros de mayores."
+  },
+  {
+    "id": "transporte-municipal",
+    "title": "Autobús urbano: Tarjeta Dorada para mayores y Abono Joven",
+    "category": "Movilidad",
+    "url": "https://sede.ciudad-demo.example/movilidad/autobus",
+    "content": "La red de autobús urbano de Ciudad Demo tiene 14 líneas con frecuencias de 8 a 15 minutos en día laborable. Tarjeta Dorada: viaje gratuito para personas empadronadas de 65 años o más y para pensionistas con discapacidad igual o superior al 33 %. Se solicita en las OAC o en la sede electrónica con DNI y fotografía tamaño carné; la emisión es gratuita y la tarjeta se entrega en 15 días (se puede usar el justificante de solicitud durante ese tiempo). Abono Joven: 20 euros al mes para personas de 14 a 26 años, viajes ilimitados en todas las líneas; se recarga en la app Ciudad Demo Bus, en estancos y en las máquinas de las paradas principales. Billete sencillo: 1,40 euros; bono de 10 viajes: 9 euros. El duplicado por pérdida cuesta 5 euros."
+  },
+  {
+    "id": "becas-estudio",
+    "title": "Becas y ayudas municipales al estudio",
+    "category": "Educación y juventud",
+    "url": "https://sede.ciudad-demo.example/educacion/becas",
+    "content": "Ayudas municipales para el curso 2026-2027: libros y material escolar para Primaria, ESO y FP básica, hasta 150 euros por estudiante; ayuda de comedor escolar de hasta el 100 % del precio en centros públicos; beca de transporte para estudiantes universitarios o de FP superior que estudien fuera del municipio, hasta 300 euros por curso; y premios a la excelencia académica de 500 euros. Requisitos: estar empadronado en Ciudad Demo y que la renta de la unidad familiar no supere los umbrales de la convocatoria (por ejemplo, 36.000 euros anuales para una familia de 4 miembros). Plazo: del 15 de septiembre al 15 de octubre en la sede electrónica. Son compatibles con las becas del Ministerio de Educación y de la comunidad autónoma salvo para el mismo concepto."
+  },
+  {
+    "id": "bibliotecas",
+    "title": "Red municipal de bibliotecas y salas de estudio",
+    "category": "Cultura",
+    "url": "https://sede.ciudad-demo.example/cultura/bibliotecas",
+    "content": "La red municipal tiene 5 bibliotecas abiertas de lunes a viernes de 9:00 a 21:00 y sábados de 10:00 a 14:00. Carné de biblioteca gratuito: se obtiene en cualquier biblioteca con DNI o NIE y un justificante de domicilio; los menores de 14 años necesitan autorización de su madre, padre o tutor. Préstamo: hasta 10 documentos durante 21 días, renovable 2 veces en la app o la web si no hay reservas. Servicios: wifi gratuito, préstamo de portátiles para usar en sala, libros de letra grande, audiolibros, préstamo de libros electrónicos, club de lectura para mayores y actividades infantiles. Salas de estudio 24 horas: la Biblioteca Central abre 24 horas del 15 de diciembre al 31 de enero y del 15 de mayo al 30 de junio, con acceso mediante el carné; el resto del año abre hasta la 01:00."
+  },
+  {
+    "id": "incidencias-via-publica",
+    "title": "Avisos e incidencias en la vía pública",
+    "category": "Vía pública",
+    "url": "https://sede.ciudad-demo.example/avisos",
+    "content": "Cualquier persona puede comunicar incidencias en la vía pública (farolas apagadas, aceras rotas, baches, limpieza, contenedores, mobiliario urbano, árboles, plagas o pintadas) por cuatro canales: la app Ciudad Demo Avisos (con foto y geolocalización), la web de avisos, el teléfono 010 y las OAC. Cada aviso recibe un número de seguimiento con formato AV-2026-NNNNN y se pueden recibir notificaciones por correo electrónico o en la app al cambiar de estado. Plazos máximos de resolución: situaciones de riesgo para las personas, 24 horas; alumbrado público, 72 horas; limpieza y contenedores, 48 horas; aceras y baches, 15 días hábiles; poda y arbolado sin riesgo, 30 días. Si la incidencia ha causado daños personales o materiales, se puede presentar una reclamación de responsabilidad patrimonial en la sede electrónica en el plazo de 1 año."
+  },
+  {
+    "id": "recogida-enseres-puntos-limpios",
+    "title": "Recogida de muebles y enseres y puntos limpios",
+    "category": "Medio ambiente y limpieza",
+    "url": "https://sede.ciudad-demo.example/medio-ambiente/residuos",
+    "content": "Recogida gratuita de muebles y enseres a domicilio: se solicita en el 010, en la app Ciudad Demo Avisos o en la web, con un máximo de 5 piezas por servicio. Los objetos se dejan junto al portal la noche anterior, entre las 20:00 y las 23:00, y se recogen en un plazo de 3 días hábiles. Los electrodomésticos también pueden entregarse en la tienda al comprar uno nuevo. Puntos limpios fijos (Norte, Sur y Este): abiertos de lunes a sábado de 8:00 a 20:00 y domingos y festivos de 9:00 a 14:00. Admiten aceite doméstico, pilas, aparatos eléctricos y electrónicos, pinturas, fluorescentes, ropa, voluminosos y escombros de pequeñas obras domésticas (hasta 50 kg por día). No admiten residuos industriales ni de actividades profesionales. El punto limpio móvil recorre los barrios según un calendario semanal publicado en la web."
+  },
+  {
+    "id": "datos-abiertos",
+    "title": "Portal de datos abiertos de Ciudad Demo",
+    "category": "Transparencia y datos abiertos",
+    "url": "https://datos.ciudad-demo.example",
+    "content": "El portal de datos abiertos publica más de 250 conjuntos de datos en formatos CSV, JSON y GeoJSON, con licencia Creative Commons Reconocimiento 4.0 (CC BY 4.0): se pueden reutilizar, incluso con fines comerciales, citando la fuente «Ayuntamiento de Ciudad Demo». API REST compatible con CKAN: acceso libre para descargas y clave gratuita para la API, con un límite de 1.000 peticiones por hora. Frecuencias de actualización: calidad del aire, cada hora (8 estaciones que miden NO2, PM10, PM2.5 y O3); avisos e incidencias en la vía pública, diaria; ocupación de aparcamientos, cada 5 minutos; padrón por barrios, semestral; presupuesto y ejecución presupuestaria, trimestral. Los conjuntos de calidad del aire incluyen el histórico desde 2015. Se pueden proponer nuevos conjuntos de datos desde el propio portal."
+  },
+  {
+    "id": "cita-previa-010-oac",
+    "title": "Cita previa, teléfono 010 y Oficinas de Atención Ciudadana",
+    "category": "Padrón y atención ciudadana",
+    "url": "https://sede.ciudad-demo.example/atencion-ciudadana",
+    "content": "El teléfono de información municipal 010 atiende de lunes a viernes de 8:00 a 20:00 y sábados de 9:00 a 14:00 (desde fuera del municipio o desde el móvil con tarifa plana: 900 000 010, número ficticio de demostración). Las 7 Oficinas de Atención Ciudadana (OAC) abren de lunes a viernes de 8:30 a 14:30 y los jueves también de 16:00 a 19:00. La cita previa se pide en la sede electrónica, en la app Ciudad Demo o en el 010; se puede anular o cambiar desde el enlace del correo de confirmación. Sin cita se atiende la entrega de documentación en registro y la recogida de tarjetas. En las OAC también se acredita la identidad para obtener el certificado digital de la FNMT o registrarse en Cl@ve, necesarios para la mayoría de trámites online de la sede electrónica."
+  },
+  {
+    "id": "ibi-bonificaciones",
+    "title": "Impuesto sobre Bienes Inmuebles (IBI): pago y bonificaciones",
+    "category": "Impuestos y tasas",
+    "url": "https://sede.ciudad-demo.example/impuestos/ibi",
+    "content": "El IBI se paga en dos plazos: del 1 de junio al 31 de julio y del 1 de octubre al 30 de noviembre. Con el Sistema Especial de Pago se fracciona en 9 cuotas mensuales sin intereses domiciliando el recibo, con una bonificación del 5 % (máximo 100 euros). Bonificaciones: familias numerosas, entre el 30 % y el 90 % según el valor catastral de la vivienda habitual y la categoría del título; instalación de placas solares para autoconsumo, 40 % durante 3 años; viviendas de protección oficial, 50 % durante 3 años. Las bonificaciones se solicitan antes del 1 de marzo para aplicarse ese mismo año, en la sede electrónica o en las OAC. Los recibos se consultan y pagan en la sede electrónica con Cl@ve o certificado digital."
+  },
+  {
+    "id": "actividades-culturales-deportivas",
+    "title": "Actividades culturales, cursos y piscinas municipales",
+    "category": "Cultura y deporte",
+    "url": "https://sede.ciudad-demo.example/cultura-deporte",
+    "content": "Los 9 centros culturales ofrecen cursos trimestrales (idiomas, pintura, fotografía, teatro, música, cocina, informática) con inscripción en septiembre, enero y abril en la web; el precio medio es de 35 euros al trimestre, con un 50 % de descuento para jóvenes de hasta 26 años, mayores de 65 y personas desempleadas. La agenda cultural gratuita incluye conciertos, cine de verano, teatro en la calle y exposiciones. Piscinas municipales: 3 piscinas cubiertas abiertas todo el año y 4 de verano (del 15 de junio al 15 de septiembre). Entrada: 4,50 euros (2,25 euros reducida); abono mensual joven: 15 euros; abono mensual general: 28 euros. Los polideportivos ofrecen escuelas deportivas y alquiler de pistas con reserva en la app Ciudad Demo Deporte."
+  }
+]
