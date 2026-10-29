@@ -22,7 +22,7 @@
     player: null,
     playingUrl: null,
     rec: null,
-    range: "7d",
+    range: "30d",
     dash: null,
     dashLoading: false,
     dashTimer: null,
@@ -248,7 +248,7 @@
     $("#model-select").replaceChildren(
       ...cfg.models.map((model) => h("option", { value: model.key, text: model.label, title: `Agente ${model.agent}` }))
     );
-    state.range = cfg.default_range || "7d";
+    state.range = cfg.default_range || "30d";
     $("#range-select").replaceChildren(
       ...cfg.ranges.map((key) => h("option", { value: key, text: RANGE_LABELS[key] || key, selected: key === state.range }))
     );

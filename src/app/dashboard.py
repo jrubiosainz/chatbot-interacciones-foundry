@@ -25,7 +25,7 @@ RANGES = {
     "7d": ("P7D", timedelta(days=7)),
     "30d": ("P30D", timedelta(days=30)),
 }
-DEFAULT_RANGE = "7d"
+DEFAULT_RANGE = "30d"
 CACHE_SECONDS = 5
 SAFE_ID = re.compile(r"^[a-z0-9_-]{1,40}$")
 

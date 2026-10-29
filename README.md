@@ -16,6 +16,8 @@ Con `azd up` se despliega todo en el grupo de recursos **`RG-chatbot-interaccion
 > [!IMPORTANT]
 > Es una demo **sin autenticación**: cualquiera que tenga la URL puede conversar y consumir tokens. No la uses con datos reales y elimínala con `azd down --purge` al terminar.
 
+Para enseñarlo en una reunión, sigue el **[guion de la demo](docs/guion-demo.md)**: 10 minutos paso a paso, con las preguntas que conviene hacer y qué contar en cada momento.
+
 ## Arquitectura
 
 ```mermaid
@@ -127,11 +129,11 @@ El backend instrumenta cada turno con **OpenTelemetry** usando las convenciones 
 
 | Span | Atributos clave |
 |---|---|
-| `turno_usuario {modalidad}` (`app.kind = turn`) | `app.user.id`, `app.modality` (texto o voz), `app.model.key` |
+| `turno_usuario {modalidad}` (`app.kind = turn`) | `app.user.id`, `app.modality` (texto o voz), `app.model.selected` |
 | Llamada a modelo (`app.kind = model_call`) | `gen_ai.request.model`, `app.model.type` (texto o voz), `gen_ai.usage.input_tokens`, `gen_ai.usage.output_tokens` |
 | Herramienta (`app.kind = tool_call`) | `app.tool.label` (`AI Search` o `Bing (Web Search)`) |
 
-`GET /api/dashboard?range=1h|24h|7d|30d` consulta App Insights con KQL, usando la identidad de la app, y agrega por usuario y por modelo. Prueba primero el esquema clásico (`dependencies`) y, si no responde, el del área de trabajo (`AppDependencies`). La consulta exacta se puede ver desplegando el bloque "Consulta KQL" debajo del tablero.
+`GET /api/dashboard?range=1h|24h|7d|30d` (por defecto, `30d`) consulta App Insights con KQL, usando la identidad de la app, y agrega por usuario y por modelo. Prueba primero el esquema clásico (`dependencies`) y, si no responde, el del área de trabajo (`AppDependencies`). La consulta exacta se puede ver desplegando el bloque "Consulta KQL" debajo del tablero.
 
 App Insights tarda **entre 1 y 3 minutos** en ingerir los datos. Mientras tanto, el tablero marca como "en ingesta" los mensajes que la app ya guardó pero que todavía no aparecen en la telemetría.
 
@@ -187,6 +189,7 @@ src/app/search_setup.py    Índice y documentos de AI Search
 src/app/static/            Interfaz (HTML, CSS y JavaScript sin dependencias)
 data/                      Conversaciones de demo
 scripts/                   Script de siembra
+docs/                      Guion de la demo y captura
 ```
 
 ## Licencia
